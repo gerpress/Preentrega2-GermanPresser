@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/style.css" />
+    <link rel="shortcut icon" href="../imagenes/favicom.png" type="image/x-icon" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!--TIPOGRAFIAS-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,500;1,600&display=swap" rel="stylesheet" />
+    <title>Press Studio</title>
+  </head>
+  <body>
+    <!--COMIENZA HEADER-->
+    <header>
+      <nav class="navbar navbar-expand-lg shadow fixed-top bg-light py-3">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imagenes/logo press svg.svg" alt="Logo" width="80" height="24" class="d-inline-block align-text-top" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">BLOG</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--FINALIZA HEADER-->
+    <main>
+      <div class="section_container container color-fondo p-5">
+        <h1 class="section_tittle">CONTACTO</h1>
+        <div class="mb-3">
+          <label for="Nombre" class="form-label">Nombre</label>
+          <input type="Nombre" class="form-control" id="Nombre" placeholder="name@example.com" />
+        </div>
+        <div class="mb-3">
+          <label for="CorreoElectrónico" class="form-label">Correo Electrónico</label>
+          <input type="CorreoElectrónico" class="form-control" id="CorreoElectrónico" placeholder="name@example.com" />
+        </div>
+        <div class="mb-3">
+          <label for="Teléfono" class="form-label">Teléfono</label>
+          <input type="Teléfono" class="form-control" id="Teléfono" placeholder="name@example.com" />
+        </div>
+        <select class="form-select form-select-sm my-5" aria-label=".form-select-sm example">
+          <option selected>Selecciona un servicio</option>
+          <option value="1">Diseño Gráfico</option>
+          <option value="2">Desarrollo Web</option>
+          <option value="3">Branding</option>
+          <option value="3">Social Media</option>
+        </select>
+        <h2 class="text-black my-5">Contanos tu Idea!</h2>
+        <div class="mb-3">
+          <label for="Mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="Mensaje" rows="10"></textarea>
+        </div>
+        <input class="btn btn-dark my-5" type="submit" value="Enviar" />
+      </div>
+    </main>
+    <!--COMIENZA FOOTER-->
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="d-flex md-3 align-items-center">
+          <div class="me-auto p-2">
+            <img src="../imagenes/logo press footer-11.svg" alt="" class="logo-footer" />
+          </div>
+          <div class="p-2"><img src="../imagenes/logo-instagram-footer.png" alt="" /></div>
+          <div class="p-2"><img src="../imagenes/logo-facebook-footer.png" alt="" /></div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

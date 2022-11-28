@@ -1,0 +1,19 @@
+.color-fondo {
+  background-color: #ececec;
+}
+
+.logo-footer {
+  height: 10rem;
+}
+
+.section_tittle {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 300%;
+}
+
+.section_container {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
