@@ -1,0 +1,20 @@
+{
+  "name": "poyectoweb-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerpress/Preentrega2-GermanPresser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerpress/Preentrega2-GermanPresser/issues"
+  },
+  "homepage": "https://github.com/gerpress/Preentrega2-GermanPresser#readme"
+}

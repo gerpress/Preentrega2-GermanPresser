@@ -1,23 +1,13 @@
-/* VARIABLES */
-.section_container {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.color-fondo {
-  background-color: #ececec;
-}
-
 .section_tittle {
   font-family: "Playfair Display", serif;
-  color: #ffffff;
+  color: $color-primary;
   font-weight: 800;
   font-size: 300%;
 }
 
 .subtittle-font {
   font-family: "Playfair Display", serif;
-  color: #080808;
+  color: $color-secundary;
   font-weight: 800;
   font-size: 200%;
 }
@@ -26,9 +16,3 @@
   padding-left: 10%;
   padding-right: 10%;
 }
-
-.logo-footer {
-  height: 10rem;
-}
-
-/*# sourceMappingURL=style.css.map */
